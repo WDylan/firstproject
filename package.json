@@ -1,0 +1,19 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootswatch": "^5.3.3"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.6.1",
+    "webpack-notifier": "^1.15.0"
+  }
+}
